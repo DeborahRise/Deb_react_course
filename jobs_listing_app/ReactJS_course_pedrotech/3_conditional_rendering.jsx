@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       {love ? <h1> ("marry him")</h1> : <h1>("End it now")</h1>}
       <h1 style={{color: love ? "greenyellow" : "red"}}> today </h1>
+      {love && <button> Yes! </button>}
     </div>
   );
 };
