@@ -10,7 +10,7 @@ import { Planet } from './compPlanet';
 // conditional rendering with listsand objects/dicts and tenary ops
 
 function App() {
-  const [text_display, setText_Display] = useState()
+  const [text_display, setText_Display] = useState("")
 
   const DisplayEngine = (event) => {
     setText_Display(event.target.value)
