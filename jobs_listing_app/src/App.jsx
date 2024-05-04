@@ -45,7 +45,7 @@ function App() {
     <div className='task_list'>
       {todoList.map((task) => {
         return <div>
-        <p style={task.done ? {color: "green"} : {}}> 
+        <p style={task.done ? {backgroundColor: "green"} : {}}> 
         <button onClick={ () => X(task.id)}>x</button>
         {task.taskName} 
         <button onClick={ () => done(task.id)}> done</button>
