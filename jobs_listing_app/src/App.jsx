@@ -7,7 +7,7 @@ import { Form } from './compForm';
 function App() {
   return (
     <div className="App">
-      <h1> Tingle </h1> 
+      <h1> XXX App </h1> 
       <h2>SignUp Page </h2>
       <Form />
     </div>
